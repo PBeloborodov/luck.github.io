@@ -1,0 +1,58 @@
+@media screen and ( max-width:990px )
+  .logo
+    position: relative
+  .header
+    &-fon 
+      background: url(../img/mob-fon.jpg) center/cover no-reapet
+    &__top
+      margin-top: 30px
+    &__title
+      margin-top: 50px
+    &__email
+      margin-bottom: 15px
+  .arrow-left
+    padding: 0 
+    &::before
+      border-right: 11px solid transparent
+  .arrow-right
+    padding: 0 
+    &::after
+      border-left: 11px solid transparent    
+  .reason
+    &__item
+      margin-top: 25px
+      &::before
+        top: 18px
+  .author
+    &__photo
+      &-item
+        margin-bottom: 15px
+        & img
+          width: auto
+  .footer
+    & .btns
+      margin-bottom: 30px
+  #carouselExampleControls
+    height: 900px
+@media screen and ( max-width: 770px  )
+  #carouselExampleControls
+    height: 650px
+@media screen and ( max-width: 480px  )
+  .header
+    &__title
+      font-weight: 800
+      font-size: 40px
+      line-height: 48px
+    &__subtitle
+      font-size: 24px
+      line-height: 29px
+  .employment
+    &__result
+      font-size: 22px
+  .mt-100 
+    margin-top: 60px
+  .student
+    & .btns
+        margin-bottom: 80px
+  #carouselExampleControls
+    height: 400px

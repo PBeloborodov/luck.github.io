@@ -1,0 +1,48 @@
+.employment
+  padding: 0 !important
+  margin-top: 70px  
+  border: 3px solid $gold
+  z-index: 2
+  background: #fff
+  border-radius: 10px
+  & .section__title
+    margin-top: 40px
+  &__list 
+    margin-top: 40px
+    padding-left: 30px
+    margin-bottom: 30px
+    counter-reset: li
+    & .result-item
+      list-style-type: none
+      margin-left: 13px
+      &::before
+        content: counter(li)
+        counter-increment: li
+        position: absolute
+        display: flex
+        align-items: center
+        justify-content: center
+        left: 0px
+        width: 40px
+        height: 40px
+        background: $gold
+        border-radius: 50%
+        font-weight: bold
+        font-size: 24px
+        line-height: 29px
+        color: #fff
+  &__item
+    margin-top: 19px
+    color: $gold
+  &__text
+    color: #000 
+    font-size: 18px
+    line-height: 22px
+  &__result
+    display: flex
+    align-items: center
+    justify-content: center
+    background: $gold
+    height: 56px
+    color: #fff
+
